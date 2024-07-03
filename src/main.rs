@@ -1,5 +1,7 @@
-mod valid_palindrome;
+mod linked_list;
+// mod valid_palindrome;
 
 fn main() {
-    valid_palindrome::main();
+    // valid_palindrome::main();
+    linked_list::main();
 }
