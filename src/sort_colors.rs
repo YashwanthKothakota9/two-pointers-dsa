@@ -1,7 +1,3 @@
-use std::collections::{HashMap, HashSet};
-
-use std::fmt;
-
 fn vector_to_string(values: &Vec<i32>) -> String {
     let mut res = String::from("[");
     for i in values {
@@ -15,7 +11,7 @@ fn vector_to_string(values: &Vec<i32>) -> String {
     res
 }
 
-fn sort_colors(colors: &mut Vec<i32>) -> Vec<i32> {
+fn sort_colors(colors: &mut [i32]) -> Vec<i32> {
     let mut start = 0;
     let mut current = 0;
     let mut end = colors.len() - 1;
